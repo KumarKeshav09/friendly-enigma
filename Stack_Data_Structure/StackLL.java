@@ -1,4 +1,4 @@
-package Stack;
+package Stack_Data_Structure;
 public class StackLL {
     private static class Node {
         int data;
@@ -12,7 +12,7 @@ public class StackLL {
 
     static class Stack {
         public static Node head = null;
-        public static void push(int data) {
+        public void push(int data) {
             Node newNode = new Node(data);
 
             if(head == null) {
@@ -23,11 +23,11 @@ public class StackLL {
             head = newNode;
         }
 
-        public static boolean isEmpty() {
+        public boolean isEmpty() {
             return head == null;
         }
 
-        public static int pop() {
+        public int pop() {
             if(isEmpty()) {
                 return -1;
             }
@@ -36,7 +36,7 @@ public class StackLL {
             return top.data;
         }
 
-        public static int peek() {
+        public int peek() {
             if(isEmpty()) {
                 return -1;
             }

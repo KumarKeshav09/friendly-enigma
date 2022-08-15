@@ -1,4 +1,4 @@
-package Stack;
+package Stack_Data_Structure;
 import java.util.*;
 
 public class StackJCF {
