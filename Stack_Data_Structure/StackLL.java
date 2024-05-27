@@ -9,7 +9,7 @@ public class StackLL {
             next = null;
         }
     }
-
+    // Stack
     static class Stack {
         public static Node head = null;
         public void push(int data) {
